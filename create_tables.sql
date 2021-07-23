@@ -1,0 +1,13 @@
+CREATE TABLE Forwards(  
+	id		INTEGER		NOT NULL,
+	f_name		VARCHAR(50)		NOT NULL,
+CONSTRAINT id_PK PRIMARY KEY (id)
+)
+;
+
+CREATE TABLE Goals(
+	forward INTEGER NOT NULL,
+	match INTEGER NOT NULL,
+	num INTEGER NOT NULL,
+)
+;
